@@ -7,11 +7,11 @@ namespace ProdutosAPI.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class ProdutoController : ControllerBase
+    public class ProdutosController : ControllerBase
     {
         private readonly IProdutoRepository _repositorio;
 
-        public ProdutoController(IProdutoRepository repositorio)
+        public ProdutosController(IProdutoRepository repositorio)
         {
             _repositorio = repositorio;
         }
